@@ -1,56 +1,39 @@
-# Ecommerce-website-HTML-and-CSS
-# 🛍️ ShopNest — E-Commerce Website UI
 
-A responsive e-commerce website UI built using **HTML5 and CSS3**, focusing on clean design, structured layouts, and an intuitive shopping experience.
+# 🛒 Amazon Clone — HTML & CSS
 
-ShopNest is a frontend project created to practice and strengthen my web development skills by designing an online shopping interface from scratch.
+A frontend clone of Amazon's e-commerce website, built using **HTML5 and CSS3** to practice web development fundamentals and recreate the look and layout of a real-world e-commerce platform.
 
-🚧 **Status:** In Development
-
----
+The project focuses on page structure, styling, layouts, and responsive design while building a familiar online shopping interface.
 
 ## ✨ Features
 
-- 🏠 **Homepage:** A clean and attractive landing page.
-- 🛍️ **Product Listings:** Display products using organized layouts.
-- 🎨 **Modern UI:** Consistent colors, typography, and spacing.
-- 📱 **Responsive Design:** Layouts designed to adapt to different screen sizes.
-- 🧭 **Navigation Bar:** Easy navigation between website sections.
-- 🃏 **Product Cards:** Product images, names, prices, and buttons.
-- 🦶 **Footer Section:** Useful links and store information.
-
-*Features will be updated as development progresses.*
-
----
+- 🧭 Navigation bar inspired by Amazon.
+- 🔍 Search bar UI.
+- 📍 Delivery location section.
+- 🗂️ Product categories and navigation links.
+- 🖼️ Product cards with images and descriptions.
+- 🛍️ Shopping-related icons and interface elements.
+- 🎨 Custom styling using CSS.
+- 📐 Flexbox and layout techniques.
+- 📱 Responsive design, where implemented.
 
 ## 🧰 Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Website structure |
-| CSS3 | Styling and layouts |
-| Flexbox | Flexible page layouts |
-| CSS Grid | Product grid layouts |
-| Media Queries | Responsive design |
-| Git & GitHub | Version control and project hosting |
+- **HTML5** — Website structure and content.
+- **CSS3** — Styling, layouts, spacing, and visual design.
 
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
-ShopNest/
-│
+Amazon-Clone/
 ├── index.html
 ├── style.css
 ├── images/
-│   ├── logo.png
-│   └── products/
-│
+│   └── product-images
 └── README.md
 ```
 
----
+*The structure may vary depending on how the project is organized.*
 
 ## 🚀 Getting Started
 
@@ -65,46 +48,38 @@ git clone YOUR_REPOSITORY_URL
 Navigate to the project folder:
 
 ```bash
-cd ShopNest
+cd Amazon-Clone
 ```
 
 ### 3. Run the Website
 
 Open `index.html` in your browser, or use the Live Server extension in Visual Studio Code.
 
-No backend setup or package installation is required.
+No backend or package installation is required.
 
----
+## 📚 What I Learned
 
-## 📸 Screenshots
+- Structuring webpages with semantic HTML.
+- Styling elements using CSS selectors.
+- Creating layouts using Flexbox.
+- Working with margins, padding, and positioning.
+- Organizing images and other project assets.
+- Recreating a real-world website interface.
+- Improving code organization and visual consistency.
 
-Screenshots of the website will be added here as the design develops.
+## ⚠️ Limitations
 
----
+This project is a **frontend-only clone** created for educational purposes.
 
-## 🛠️ Future Improvements
+- Search functionality is visual only.
+- User authentication is not implemented.
+- Adding products to a cart is not functional.
+- Payments and order processing are not implemented.
+- No backend or database is connected.
 
-- [ ] Complete the homepage design.
-- [ ] Build product listing cards.
-- [ ] Add responsive layouts for mobile devices.
-- [ ] Improve navigation and visual consistency.
-- [ ] Add hover effects and CSS transitions.
-- [ ] Refine the overall user experience.
+## 🎯 Project Goal
 
----
-
-## 📚 What I'm Learning
-
-Through this project, I'm practicing:
-
-- Writing semantic HTML.
-- Styling websites with CSS.
-- Creating layouts using Flexbox and Grid.
-- Understanding responsive web design.
-- Organizing project files.
-- Using Git and GitHub to manage code.
-
----
+The goal of this project is to strengthen my HTML and CSS fundamentals by recreating the interface of a familiar e-commerce website and gaining practical frontend development experience.
 
 ## 👩‍💻 Author
 
@@ -115,6 +90,4 @@ Through this project, I'm practicing:
 
 ---
 
-⭐ Thanks for checking out ShopNest!
-
-**Built with HTML & CSS, one section at a time.**
+⭐ Building projects, learning by doing, and improving one step at a time.
