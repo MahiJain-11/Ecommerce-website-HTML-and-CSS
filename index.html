@@ -3,49 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <title>Amazon Clone</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+   
     <header>
         <div class="navbar">
+
+            <!-- Amazon Logo -->
             <div class="navlogo border">
                 <div class="logo"></div>
-             </div>
+            </div>
 
-             <div class = "nav address border">
-                <p class="add-first">deliver to</p>
-                <div class = "add-icon">
-                    <i class="fa-duotone fa-regular fa-location-dot"></i>
+            <!-- Delivery Address -->
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
                     <p class="add-sec">India</p>
-                </div>  
-             </div>
-                <div class="nav-search">
-                    <select class="search-select">
-                        <option>All</option>
-                    </select>
-                    <input placeholder="Search Amazon"  class="search-input">
-                    <div class="search-icon">
-                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                    </div>
                 </div>
-                <div class="nav-signin border">
-            <p><span>Hello , sign in</span></p>
-            <p class="nav-sec">Account and Lists</p>
-        </div>
-        <div>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+
+                <input
+                    type="text"
+                    placeholder="Search Amazon"
+                    class="search-input">
+
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <!-- Sign In -->
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-sec">Account &amp; Lists</p>
+            </div>
+
+            <!-- Returns -->
             <div class="nav-return border">
-            <p><span>Returns</span></p>
-            <p class="nav-sec">& Orders</p>
+                <p><span>Returns</span></p>
+                <p class="nav-sec">&amp; Orders</p>
+            </div>
+
+            <!-- Cart -->
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </div>
+
         </div>
+
+        <!-- BOTTOM NAVIGATION PANEL -->
+        <div class="panel">
+
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                <span>All</span>
+            </div>
+
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+
+            <div class="panel-deals border">
+                Shop deals in Electronics
+            </div>
+
         </div>
-         <div class="nav-cart border">
-            <i class="fa-solid fa-cart-shopping"></i>
-            Cart
-        </div>
-       
     </header>
-    
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <div class="hero-message">
+            <p>
+                You are on amazon.com. You can also shop on Amazon India
+                for millions of products with fast local delivery.
+                <a href="https://www.amazon.in/">Click here to go to amazon.in</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- SHOPPING BOXES -->
+    <main class="shop-section">
+
+        <div class="box">
+            <h2>Clothes</h2>
+            <div class="box-image clothes-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>Health &amp; Personal Care</h2>
+            <div class="box-image health-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>Furniture</h2>
+            <div class="box-image furniture-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>Electronics</h2>
+            <div class="box-image electronics-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>Beauty Picks</h2>
+            <div class="box-image beauty-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>Pet Care</h2>
+            <div class="box-image pet-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>New Arrivals</h2>
+            <div class="box-image arrivals-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>Discover More</h2>
+            <div class="box-image discover-image"></div>
+            <a href="https://www.amazon.in/">See more</a>
+        </div>
+
+    </main>
+
+    <!-- BACK TO TOP -->
+    <footer>
+        <a href="#" class="back-to-top">Back to top</a>
+        <div class="footer-content">
+            <h3>Amazon Clone</h3>
+            <p>Created using HTML and CSS for learning purposes.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
